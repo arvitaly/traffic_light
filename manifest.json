@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Светофор.DevilStudio",
+  "version": "1.0",
+  "permissions": [ "http://*/*"],
+  "background": {
+    "scripts": ["jquery.js","background.js"],
+    "persistent": false
+  },
+    "options_page": "options.html",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon_orange.png"
+    }  
+}
